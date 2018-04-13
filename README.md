@@ -1,4 +1,10 @@
-# Interview Test for Avira
+# Problem Description
+
+To develop a Birthday application with the following features:
+1. Display the list of all birthdays
+2. Add birthday to the app
+3. Add the event to Google calendar
+4. Optional: Support voice input to fill in birthday details using Google Speech API
 
 Assumptions:
 I assumed that,  

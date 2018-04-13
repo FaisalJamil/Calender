@@ -1,0 +1,17 @@
+<!--
+  ~ Copyright (c) 2017. Faisal Jamil
+  -->
+
+<resources>
+    <string name="app_name">Avira Test</string>
+    <string name="bd_list">List of Birthdays</string>
+    <string name="common_error">An error occurred!</string>
+    <string name="txt_title">Title:</string>
+    <string name="add_new_record">Add Birthday</string>
+    <string name="name_hint">Name</string>
+    <string name="birthday_hint">Birthday</string>
+    <string name="add_to_google_calender">Add to Google Calender</string>
+    <string name="item_clicked">%1$s\'s record clicked</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech</string>
+    <string name="need_calender_permission">Permission for calender needed.</string>
+</resources>

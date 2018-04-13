@@ -1,0 +1,34 @@
+apply plugin: 'java'
+
+/*
+ * Copyright (c) 2017. Faisal Jamil
+ */
+
+//noinspection GroovyUnusedAssignment
+sourceCompatibility = JavaVersion.VERSION_1_8
+//noinspection GroovyUnusedAssignment
+targetCompatibility = JavaVersion.VERSION_1_8
+
+configurations {
+    provided
+}
+
+sourceSets {
+    main {
+        compileClasspath += configurations.provided
+    }
+}
+
+dependencies {
+    def appDependencies = rootProject.ext.appDependencies
+    def testDependencies = rootProject.ext.testDependencies
+
+    compile appDependencies.dagger
+    compile appDependencies.rxJava
+
+    testCompile testDependencies.junit
+    testCompile testDependencies.mockito
+
+    provided appDependencies.daggerCompiler
+    provided appDependencies.javaxAnnotation
+}

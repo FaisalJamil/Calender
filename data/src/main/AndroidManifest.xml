@@ -1,0 +1,12 @@
+<!--
+  ~ Copyright (c) 2017. Faisal Jamil
+  -->
+
+<manifest package="com.example.faisal.data"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application android:allowBackup="true" />
+
+</manifest>
